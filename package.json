@@ -5,9 +5,12 @@
     "version": "1.0.0",
     "main": "pathToMain",
     "dependencies": {
+        "@babel/standalone": "^7.4.1",
+        "babel": "^6.23.0",
         "browser-sync": "^2.26.3"
     },
     "devDependencies": {
+        "@babel/preset-react": "^7.0.0",
         "autoprefixer-cli": "^1.0.0",
         "flickity-hash": "^1.0.3",
         "globstar": "^1.0.0",
